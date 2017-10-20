@@ -12,7 +12,75 @@
 		7FA0DBCB1F99F50800530BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0DBC91F99F50800530BC7 /* Main.storyboard */; };
 		7FA0DBCD1F99F50800530BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0DBCC1F99F50800530BC7 /* Assets.xcassets */; };
 		7FA0DBD01F99F50800530BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0DBCE1F99F50800530BC7 /* LaunchScreen.storyboard */; };
+		7FA0DBF51F99F87D00530BC7 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA0DBE61F99F6CE00530BC7 /* SDWebImage.framework */; };
+		7FA0DBF61F99F87D00530BC7 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA0DBE61F99F6CE00530BC7 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FA0DBE11F99F6CE00530BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = "SDWebImage iOS static";
+		};
+		7FA0DBE31F99F6CE00530BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4314D1991D0E0E3B004B36C9;
+			remoteInfo = "SDWebImage watchOS static";
+		};
+		7FA0DBE51F99F6CE00530BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = "SDWebImage iOS";
+		};
+		7FA0DBE71F99F6CE00530BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00733A4C1BC487C000A5A117;
+			remoteInfo = "SDWebImage tvOS";
+		};
+		7FA0DBE91F99F6CE00530BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 431BB7031D06D2C1006A3455;
+			remoteInfo = "SDWebImage watchOS";
+		};
+		7FA0DBEB1F99F6CE00530BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4397D2F21D0DDD8C00BB2784;
+			remoteInfo = "SDWebImage OSX";
+		};
+		7FA0DBF71F99F87D00530BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2CADFE1AB4BB5300B6BC39;
+			remoteInfo = "SDWebImage iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7FA0DBF91F99F87D00530BC7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7FA0DBF61F99F87D00530BC7 /* SDWebImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7FA0DBC21F99F50800530BC7 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +90,8 @@
 		7FA0DBCC1F99F50800530BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA0DBCF1F99F50800530BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FA0DBD11F99F50800530BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = TestProject/Vendor/SDWebImage/SDWebImage.xcodeproj; sourceTree = SOURCE_ROOT; };
+		7FA0DBF41F99F86300530BC7 /* Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA0DBF51F99F87D00530BC7 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +125,38 @@
 		7FA0DBC41F99F50800530BC7 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				7FA0DBD71F99F67E00530BC7 /* Vendor */,
 				7FA0DBC51F99F50800530BC7 /* AppDelegate.swift */,
 				7FA0DBC71F99F50800530BC7 /* ViewController.swift */,
 				7FA0DBC91F99F50800530BC7 /* Main.storyboard */,
 				7FA0DBCC1F99F50800530BC7 /* Assets.xcassets */,
 				7FA0DBCE1F99F50800530BC7 /* LaunchScreen.storyboard */,
 				7FA0DBD11F99F50800530BC7 /* Info.plist */,
+				7FA0DBF41F99F86300530BC7 /* Project-Bridging-Header.h */,
 			);
 			path = TestProject;
+			sourceTree = "<group>";
+		};
+		7FA0DBD71F99F67E00530BC7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */,
+			);
+			name = Vendor;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7FA0DBD91F99F6CE00530BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0DBE21F99F6CE00530BC7 /* libSDWebImage iOS static.a */,
+				7FA0DBE41F99F6CE00530BC7 /* libSDWebImage watchOS static.a */,
+				7FA0DBE61F99F6CE00530BC7 /* SDWebImage.framework */,
+				7FA0DBE81F99F6CE00530BC7 /* SDWebImage.framework */,
+				7FA0DBEA1F99F6CE00530BC7 /* SDWebImage.framework */,
+				7FA0DBEC1F99F6CE00530BC7 /* SDWebImage.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +169,12 @@
 				7FA0DBBE1F99F50800530BC7 /* Sources */,
 				7FA0DBBF1F99F50800530BC7 /* Frameworks */,
 				7FA0DBC01F99F50800530BC7 /* Resources */,
+				7FA0DBF91F99F87D00530BC7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7FA0DBF81F99F87D00530BC7 /* PBXTargetDependency */,
 			);
 			name = TestProject;
 			productName = TestProject;
@@ -111,12 +208,63 @@
 			mainGroup = 7FA0DBB91F99F50800530BC7;
 			productRefGroup = 7FA0DBC31F99F50800530BC7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7FA0DBD91F99F6CE00530BC7 /* Products */;
+					ProjectRef = 7FA0DBD81F99F6CE00530BC7 /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7FA0DBC11F99F50800530BC7 /* TestProject */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7FA0DBE21F99F6CE00530BC7 /* libSDWebImage iOS static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage iOS static.a";
+			remoteRef = 7FA0DBE11F99F6CE00530BC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7FA0DBE41F99F6CE00530BC7 /* libSDWebImage watchOS static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage watchOS static.a";
+			remoteRef = 7FA0DBE31F99F6CE00530BC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7FA0DBE61F99F6CE00530BC7 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 7FA0DBE51F99F6CE00530BC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7FA0DBE81F99F6CE00530BC7 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 7FA0DBE71F99F6CE00530BC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7FA0DBEA1F99F6CE00530BC7 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 7FA0DBE91F99F6CE00530BC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7FA0DBEC1F99F6CE00530BC7 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 7FA0DBEB1F99F6CE00530BC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7FA0DBC01F99F50800530BC7 /* Resources */ = {
@@ -142,6 +290,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FA0DBF81F99F87D00530BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SDWebImage iOS";
+			targetProxy = 7FA0DBF71F99F87D00530BC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7FA0DBC91F99F50800530BC7 /* Main.storyboard */ = {
@@ -280,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pch.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pch.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
