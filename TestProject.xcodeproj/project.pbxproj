@@ -14,6 +14,7 @@
 		7FA0DBD01F99F50800530BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0DBCE1F99F50800530BC7 /* LaunchScreen.storyboard */; };
 		7FA0DE161F99FE7C00530BC7 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA0DE0F1F99FE7400530BC7 /* SDWebImage.framework */; };
 		7FA0DE171F99FE7C00530BC7 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA0DE0F1F99FE7400530BC7 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7FA0DE231F9A04BE00530BC7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA0DE221F9A04B400530BC7 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		7FA0DBD11F99F50800530BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FA0DBF41F99F86300530BC7 /* Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project-Bridging-Header.h"; sourceTree = "<group>"; };
 		7FA0DE011F99FE7400530BC7 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = TestProject/Vendor/SDWebImage/SDWebImage.xcodeproj; sourceTree = SOURCE_ROOT; };
+		7FA0DE221F9A04B400530BC7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA0DE231F9A04BE00530BC7 /* ImageIO.framework in Frameworks */,
 				7FA0DE161F99FE7C00530BC7 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +114,7 @@
 			children = (
 				7FA0DBC41F99F50800530BC7 /* TestProject */,
 				7FA0DBC31F99F50800530BC7 /* Products */,
+				7FA0DE1C1F9A04B400530BC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +161,14 @@
 				7FA0DE151F99FE7400530BC7 /* SDWebImage.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7FA0DE1C1F9A04B400530BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0DE221F9A04B400530BC7 /* ImageIO.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
